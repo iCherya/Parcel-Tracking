@@ -1,0 +1,77 @@
+textarea {
+    line-height: 1.5em;
+    min-width: 265px;
+    height: 100%;
+}
+
+textarea::placeholder {
+    background-image: url(./img/np-logo.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: bottom;
+}
+
+button {
+    min-width: 130px;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:disabled {
+    background: #aaa;
+    border: 1px solid #aaa;
+}
+
+button:disabled:hover {
+    background: #aaa;
+    border: 1px solid #aaa;
+}
+
+button:disabled:after {
+    content: " ...";
+    animation: hightlight 1.3s infinite linear;
+}
+
+@keyframes hightlight {
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.main-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    margin: 0 10px;
+    background: rgba(223, 223, 223, 0.479);
+    flex: 1 1 200px;
+    border-radius: 4px;
+    padding: 0.75rem;
+    line-height: 1.5em;
+}
+
+
+.contacts-links {
+    text-align: center;
+    font-size: 0;
+    margin-top: 80px;
+
+}
+
+.contacts-links svg {
+    margin: 0 5px;
+}
+
+.contacts-links svg:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
