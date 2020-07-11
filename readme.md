@@ -1,4 +1,4 @@
-# 🌤 Parcel Tracking
+# 📦 Parcel Tracking
 Parcels bulk tracking pet-project. Only works with Nova Poshta API for now.
 
 ![Demo](./img/bulk-tracking-demo.gif)
